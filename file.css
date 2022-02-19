@@ -1,26 +1,46 @@
 <!DOCTYPE css>
-
+*{
+box-sizing: border-box;
+}
+wrapper{
+  width: 100px;
+  height: auto;
+  background-color: inherit;
+  margin:0 auto;
+}
+body{
+    background-image: url(images/background.jpg);
+}
 h1{
+  font-family: 'Sacramento', cursive;
   background-color: #dcdcdc;
-  padding: 30%;
+  padding: 20%;
   text-align: center;
+  margin: auto;
+}
+nav1{
+  width: 100%
+  height:auto;
+  margin: 10px
+  float: left;
+  background-color: #a0a0a0
 }
 section{
-  background-color: #666;
+  background-color: #f8f8f8;
   float: left;
   padding: 10%;
   margin: 20px;
   text-align: center;
 }
 article{
-  background-image: url("images/background.jpg");
+  background-color: #bebebe;
   clear: left;
   padding: 10%;
   margin: 20px;
   text-align: center;
 }
 aside{
-  background-color: #665;
+  background-color: #dcdcdc;
   float:right;
   length: 100%;
   padding: 10%;
@@ -32,3 +52,5 @@ table{
 }
 table{
   background-color: #a0a0a0;}
+  footer{
+    clear: both;
